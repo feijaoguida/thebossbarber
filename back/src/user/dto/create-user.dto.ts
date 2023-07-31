@@ -17,7 +17,7 @@ export class CreateUserDto extends User {
   email: string;
 
   @ApiProperty({
-    example: 'fiat@147',
+    example: 'Fiat@147',
     description: `Email é obrigatório.`
   })
   @IsString()
@@ -28,6 +28,10 @@ export class CreateUserDto extends User {
   })
   password: string;
 
+  @ApiProperty({
+    example: 'Fulano de Tal',
+    description: `Nome do usuário, campo obrigatorio`
+  })
   @IsString()
   name: string;
 }
