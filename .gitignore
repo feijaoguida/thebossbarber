@@ -33,3 +33,6 @@ back/!.vscode/settings.json
 back/!.vscode/tasks.json
 back/!.vscode/launch.json
 back/!.vscode/extensions.json
+
+# Variaveis de Ambiente
+back/.env
