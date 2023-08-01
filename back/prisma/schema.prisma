@@ -28,3 +28,64 @@ model User {
   created_at DateTime? @default(now())
   updated_at DateTime? @default(now())
 }
+
+model Employee {
+  id String @id @default(uuid())
+
+  corporate_Name String
+  fantasy_name String
+  slogan String
+  logo String
+  photo_cover String
+  cpf_cnpj String @unique
+  address String
+  city String
+  state String
+  email String @unique
+  site String
+  contact String
+  email_contact String
+  observation String
+
+  status Boolean @default(true)
+  deleted Boolean @default(false)
+  created_at DateTime? @default(now())
+  updated_at DateTime? @default(now())
+}
+
+model Client {
+  id String @id @default(uuid())
+  
+  name String
+  nickname String
+  
+  email String @unique
+  instagram String
+  facebook String
+  tiktok String
+
+  address String
+  district String
+  state String
+  zip String
+  city String
+  fone String
+  whatsapp String
+  complementary String
+
+  cpf String
+  rg String
+  date_of_birth String
+
+  restriction Int
+
+  password String
+
+  status Boolean @default(true)
+  deleted Boolean @default(false)
+  created_at DateTime? @default(now())
+  updated_at DateTime? @default(now())
+
+  Employee String
+}
+

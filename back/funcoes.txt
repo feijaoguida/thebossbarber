@@ -22,3 +22,24 @@ Relatorio de vendas.
 Relatorio de despesas.
 Relatorio de Atendimentos.
 Relatorio de Atendimentos por profissional.
+
+
+
+
+------------------------------------
+Cadastro Cliente
+Cadastro de Fornecedor
+Cadastro de Atendentes
+Cadastro de Atendimentos
+Pedido de Compras
+Orçamentos
+Cadastro de Produtos
+Cadastro de Serviços
+Relatório dos Atendimentos
+Relatório dos Atendimentos por Cliente
+Relatório dos Atendimentos por Atendente
+Relatório de Comissões por Atendente
+Controle de Estoque
+Contas a Receber
+Acesso por nivel de usuario
+Logomarca na impressão do Atendimento
