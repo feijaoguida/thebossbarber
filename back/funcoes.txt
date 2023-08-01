@@ -1,0 +1,24 @@
+Cadastro de Usuário.
+Cadastro de Barbeiro.
+
+Cadastro de Cliente.
+Cadastro de Barbearia.
+Cadastro de Produtos.
+Cadastro de Serviços.
+Cadastro de Horarios.
+Reservas.
+Receitas.
+Despesas.
+
+
+Cliente entra no Aplicativo, escolhe o Barbearia, verifica os horarios e profissionais disponíveis, escolhe o produto/serviço, faz a reserva e aguarda.
+
+Ao chegar no Barbearia o profissional faz o checkin do cliente, lança produtos extras para o cliente. Ao finalizar o serviço o cliente faz o checkout e devidos pagamentos, onde o Operador de caixa fará o recebimento.
+
+Atendimento Presencial (definir regra ainda)
+
+Fluxo de Caixa.
+Relatorio de vendas.
+Relatorio de despesas.
+Relatorio de Atendimentos.
+Relatorio de Atendimentos por profissional.
